@@ -1,0 +1,165 @@
+.cc {
+  max-width: 380px;
+  margin: 40px auto;
+  padding: 32px 28px;
+  background: #d2d1d1; /* Deep slate blue */
+  border-radius: 16px;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.2), 0 8px 10px -6px rgba(0, 0, 0, 0.1);
+  color: #000000;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  box-sizing: border-box;
+  border-color: black;
+  border: 12px;
+}
+.jspp {
+    margin-top: 10px;
+    color: black;
+}
+.cc h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+
+/* Form Layout */
+.cc {
+  
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+box-shadow: 0 4px 10px #000000;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #000000;
+  width: 80%;
+  max-width: 400px;
+   margin: 30px auto;
+   z-index: 10000;
+}
+
+/* Inputs */
+.cc input {
+  width: 100%;
+  padding: 12px 14px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background-color: #f2f3f5;
+  color: #000000;
+  font-size: 0.95rem;
+  outline: none;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  box-sizing: border-box;
+
+}
+
+.cc input:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgb(59, 131, 246);
+}
+
+
+/* Button */
+button[type="submit"] {
+  width: 30%;
+  padding: 12px;
+  margin-top: 8px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2563eb;
+  color: #ffffff;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.2s ease, transform 0.1s ease;
+   box-shadow: 0 4px 10px #000000;
+   transition: 0.3s;
+}
+
+button[type="submit"]:hover {
+  background-color: #1d4ed8;
+}
+
+button[type="submit"]:active {
+  transform: scale(0.98);
+color:rgba(0, 38, 255, 0.502);
+}
+
+
+.ana {
+    border-radius: 50%;
+    border: 3px solid #454956;
+    transition: 0.3s;
+    animation: float 10s ease-out infinite;
+    z-index: -1;
+}
+@keyframes float {
+    
+   0%{
+        transform: translateX(0);
+    }
+    50%{
+    transform: translateX(-40px);
+    }
+    100%{
+    transform: translateX(0);
+    }
+}
+.ana:hover {
+    transform: scale(2.08);
+    box-shadow: 0 0 20px 10px rgba(127, 132, 144, 0.4);
+}
+.bb:hover {
+    transform: translateY(-5px);
+}
+.moi {
+  background-color:  rgba(225, 227, 230, 0.635);
+  border-radius:10px;
+  border: 5px solid #101213;
+  border: 5px solid ;
+  padding-left: 20px;
+  padding-right: 0px;
+    margin-top: 8px;
+    width: 70%;
+    margin-left: 150px;
+    box-shadow: 0 7px 10px #000000;
+}
+.lui {
+  background-color: rgba(225, 227, 230, 0.635);
+  border-radius: 10px;
+  border: 5px solid #101213;
+  padding-left: 20px;
+  padding-right: 0px;
+    margin-top: 8px;
+    width: 70%;
+  padding-bottom: 10px;
+   margin-left: 150px;
+    box-shadow: 0 7px 10px #000000;
+}
+label {
+    display: block;
+    margin-bottom: 8px;
+}
+
+input {
+    margin-bottom: 30px;
+}
+.cvvv a{
+  text-align: center;
+  border: 2px solid #101213;
+    
+    color: rgb(22, 22, 22);
+    margin-left: 30px auto;
+    text-decoration: none;
+    padding: 10px 20px 20px 10px ;
+    border-radius: 15px 10px;
+    border-color: #000000;
+    box-shadow: 0 4px 7px #000000;
+    font-size: small;
+    
+}
+.cvvv a:hover {
+  background-color: #ebefef;
+}
